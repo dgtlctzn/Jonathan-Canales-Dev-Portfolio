@@ -19,3 +19,7 @@ a.navbar-brand:visited {
 .nav-link:active {
     color: #111116;
 }
+
+.card {
+    max-width: 700px;
+}
