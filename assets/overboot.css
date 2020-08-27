@@ -1,10 +1,20 @@
 
 a.navbar-brand {
     background: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
 }
 
 a.navbar-brand:focus,
 a.navbar-brand:active,
 a.navbar-brand:visited {
     color: white;
+}
+
+.nav-item {
+    float: right;
+}
+
+.nav-link:active {
+    color: #111116;
 }
