@@ -46,11 +46,11 @@ a.navbar-brand:visited {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
-    height: 100px;
+    height: 10%;
     width: 100vw;
-    background: rgb(70, 70, 70);
+    background: rgb(66, 66, 66);
     color:seashell;
 }
 #funline {
@@ -61,4 +61,6 @@ footer {
 .card-footer {
     text-align: center;
     font-size: 1.2em;
+    padding-top: 25px;
+    color:slategray;
 }
