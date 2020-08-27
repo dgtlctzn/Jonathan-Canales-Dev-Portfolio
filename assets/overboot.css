@@ -1,0 +1,10 @@
+
+a.navbar-brand {
+    background: teal;
+}
+
+a.navbar-brand:focus,
+a.navbar-brand:active,
+a.navbar-brand:visited {
+    color: white;
+}
