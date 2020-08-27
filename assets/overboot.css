@@ -1,4 +1,6 @@
-
+main {
+    height: 100%;
+}
 
 a.navbar-brand {
     background: teal;
@@ -23,13 +25,18 @@ a.navbar-brand:visited {
 
 .card {
     position: relative;
-    max-width: 700px;
+    max-width: 900px;
+    height: auto;
     left: 40px;
     top: 50px;
 }
 
 .media {
     float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 350px;
+    width: 350px;
 }
 
 /*h2 element color change*/
@@ -46,6 +53,7 @@ a.navbar-brand:visited {
 }
 
 footer {
+    display: none;
     position: absolute;
     bottom: 0px;
     height: 10%;
@@ -63,4 +71,8 @@ footer {
     font-size: 1.2em;
     padding-top: 25px;
     color:slategray;
+}
+
+.holder {
+    display: inline-block;
 }
