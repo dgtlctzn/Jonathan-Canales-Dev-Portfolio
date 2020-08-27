@@ -29,14 +29,15 @@ a.navbar-brand:visited {
     height: auto;
     left: 40px;
     top: 50px;
+    font-size: 20px;
 }
 
 .media {
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    height: 350px;
-    width: 350px;
+    padding-left: 10px;
+    padding-left: 20px;
 }
 
 /*h2 element color change*/
