@@ -3,6 +3,7 @@ a.navbar-brand {
     background: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
+    margin-left: 40px;
 }
 
 a.navbar-brand:focus,
