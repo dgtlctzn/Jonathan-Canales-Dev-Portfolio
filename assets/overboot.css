@@ -1,11 +1,10 @@
 body{
-    background-image: url("assets/background.png")
+    background-image: url("background.png");
 }
 
 main {
     position: relative;
     width: auto;
-    background-image: url("assetsbackground.png");
 }
 
 a.navbar-brand {
