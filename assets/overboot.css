@@ -1,9 +1,10 @@
 body {
-    background: rgb(15, 15, 15);
+    height: 100vh;
 }
 
 main {
-    height: 100%;
+    position: relative;
+    width: auto;
 }
 
 a.navbar-brand {
@@ -29,19 +30,26 @@ a.navbar-brand:visited {
 
 .card {
     position: relative;
-    max-width: 900px;
-    height: auto;
+    min-width: 300px;
+    max-width: 600px;
+    max-height: auto; 
     left: 40px;
     top: 50px;
     font-size: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    contain: content;
 }
 
 .media {
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
+    margin-right: 10px;
     padding-left: 20px;
+    max-height: 250px;
+    max-width: 250px;
+    contain: content;
 }
 
 /*h2 element color change*/
@@ -59,27 +67,24 @@ a.navbar-brand:visited {
 
 .holder {
     display: inline-block;
-    height: fit-content;
 }
 
-/* footer styling */
+/* footer styling */ 
 footer {
-    display: none;
     position: absolute;
-    bottom: 0px;
-    height: 10%;
+    left: 0;
+    bottom: 0;
+    height: 60px;
     width: 100vw;
     background: rgb(66, 66, 66);
     color:seashell;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 1.2em;
+    color:slategray;
 }
 #funline {
     height: 10px;
     background:teal;
 }
 
-.card-footer {
-    text-align: center;
-    font-size: 1.2em;
-    padding-top: 25px;
-    color:slategray;
-}
