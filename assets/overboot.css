@@ -52,9 +52,9 @@ h1 {
 /* footer styling */ 
 
 footer {
-    position: fixed;
+    /* position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
     height: 60px;
     width: 100%;
     background: rgb(66, 66, 66);
@@ -68,3 +68,9 @@ footer {
     background:teal;
 }
 
+@media screen and (min-width: 1196px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
