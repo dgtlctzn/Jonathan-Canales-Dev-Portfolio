@@ -1,10 +1,13 @@
 body {
     height: auto;
     width: 100vw;
-    background-image: url("../assets/goofyimage.png"); 
+    background-image: url("assets/goofyimage.png"); 
     background: seashell;
 }
 
+main {
+    background-image: url("assets/goofyimage.png"); 
+}
 
 a.navbar-brand {
     background: teal;
