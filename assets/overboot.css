@@ -48,14 +48,13 @@ a.navbar-brand:visited {
 /* footer styling */ 
 
 footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     height: 60px;
     width: 100%;
     background: rgb(66, 66, 66);
     color:seashell;
-    margin-top: 10%;
     text-align: center;
     font-size: 1.2em;
 }
