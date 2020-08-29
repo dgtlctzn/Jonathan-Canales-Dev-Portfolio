@@ -27,22 +27,18 @@ a.navbar-brand:visited {
     color: #111116;
 }
 
-
-.card {
-    padding-bottom: 40px;
-}
-
 /*h2 element color change*/
 .mt-0 {
     color: teal;
 }
 
 /* about me card */
-#line {
+.line {
     height: 1px;
     background: silver;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 /* footer styling */ 
